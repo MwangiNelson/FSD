@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Barlow+Condensed:wght@300&display=swap");
+
+:root{
+    --primary-font:"Bangers",cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-block: 2.5em;
+}
+.links-list ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: #fff;
+    padding: 4em;
+}
+.hero-text h2 {
+  font-family: "Bangers", cursive;
+  font-size: 10em;
+  color: #fff;
+}
+.main-section {
+  width: 95%;
+}
+.hero-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 10px;
+  border: none;
+  background: url("/assets/burger.jpg"),#4B4A47;
+  background-position: center,center;
+  background-size: cover;
+  height: 70vh;
+}
+.btn-hero{
+    padding:.5em 1em;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #FF640D;
+    font-family: var(--primary-font);
+    font-size: 2em;
+}
